@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["bCGES"]); }
+
+__d("TimelinePhotosPageletScroller",["Arbiter","DOM","ScrollingPager","$"],(function a(b,c,d,e,f,g){__p&&__p();var h="fbTimelinePhotosScroller";function i(k){var l=c("ScrollingPager").getInstance(k.id);if(l){c("DOM").setContent(c("$")(h),k);l.register();return true}return false}var j={addScroller:function k(l){if(i(l))return;var m=c("Arbiter").subscribe(c("ScrollingPager").CONSTRUCTED,function(n,o){if(o.id===l.id){i(l);m.unsubscribe()}})},removeScroller:function k(){c("DOM").remove(c("$")(h))}};f.exports=j}),null);

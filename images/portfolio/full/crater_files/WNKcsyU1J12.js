@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["mStAX"]); }
+
+__d("AdsLWIBoostPostPickerLayout",["fbt","AdsLWISingleColumnLayout","BoostedComponentAppID","JSResource"],(function a(b,c,d,e,f,g,h){"use strict";__p&&__p();var i,j;i=babelHelpers.inherits(k,c("AdsLWISingleColumnLayout"));j=i&&i.prototype;k.prototype.getMainAreaComponents=function(){return[{component:c("JSResource")("AdsLWIBoostedItemPickerContainer.react").__setRef("AdsLWIBoostPostPickerLayout"),customProperties:{appID:c("BoostedComponentAppID").BOOSTED_POST}}]};k.prototype.getTitle=function(){return h._("Select a Post to Boost")};function k(){i.apply(this,arguments)}f.exports=new k()}),null);

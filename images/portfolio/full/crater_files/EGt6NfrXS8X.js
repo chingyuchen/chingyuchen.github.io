@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["VX\/Jm"]); }
+
+__d("AdsLWIBoostPostPickerSetupPhase",["AdsLWIBaseSingleStepPhase","AdsLWIPhaseTypes","AdsLWIBoostPostPickerLayout"],(function a(b,c,d,e,f,g){"use strict";__p&&__p();var h,i;h=babelHelpers.inherits(j,c("AdsLWIBaseSingleStepPhase"));i=h&&h.prototype;j.prototype.getLayout=function(){return c("AdsLWIBoostPostPickerLayout")};j.prototype.getPhaseType=function(){return c("AdsLWIPhaseTypes").BOOST_POST_PICKER};function j(){h.apply(this,arguments)}f.exports=new j()}),null);
